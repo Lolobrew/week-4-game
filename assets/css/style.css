@@ -3,19 +3,33 @@
 .jumbotron {
 	background-image: url("../images/retina_wood.png");
 	text-align: center;
-	height: 900px;
+	height: 100vh;
 }
 
 .page-header{
-	text-indent: 20px;
+	margin-top: -50px;
 	color: red;
 }
 
+#instructions{
+	font-size: 16px;
+	text-align: left;
+	margin-left: 20px;
+}
+
 .numberbox{
-	height: 200px;
+	height: 100px;
 	border: 2px groove red;
+	z-index: 10000;
+	background-color: lightgrey;
 }
 .winbox {
-	height: 200px;
+	height: 100px;
 	border: 2px groove red;
+	text-align: left;
+	background-color: teal;
+}
+
+#random_number, #total_score{
+	margin-top: 30px;
 }
