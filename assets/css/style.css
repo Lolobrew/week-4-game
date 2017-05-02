@@ -1,0 +1,21 @@
+
+
+.jumbotron {
+	background-image: url("../images/retina_wood.png");
+	text-align: center;
+	height: 900px;
+}
+
+.page-header{
+	text-indent: 20px;
+	color: red;
+}
+
+.numberbox{
+	height: 200px;
+	border: 2px groove red;
+}
+.winbox {
+	height: 200px;
+	border: 2px groove red;
+}
