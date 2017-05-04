@@ -8,7 +8,7 @@
 
 .page-header{
 	margin-top: -50px;
-	color: red;
+	color: #78909C;
 }
 
 #instructions{
@@ -19,15 +19,22 @@
 
 .numberbox{
 	height: 100px;
-	border: 2px groove red;
+	border: 2px groove #455A64;
 	z-index: 10000;
-	background-color: lightgrey;
+	background-image: url("../images/background.png");
 }
+
 .winbox {
 	height: 100px;
-	border: 2px groove red;
+	width: 150px;
+	border: 2px groove #455A64;
 	text-align: left;
-	background-color: teal;
+	background-image: url("../images/background.png");
+}
+
+.winbox p {
+	margin-top: 15px;
+	margin-bottom: -30px;
 }
 
 #random_number, #total_score{
