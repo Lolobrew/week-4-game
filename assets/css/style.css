@@ -6,9 +6,13 @@
 	height: 100vh;
 }
 
+.jumbotron h2 {
+	color: #32a4c9;
+}
+
 .page-header{
 	margin-top: -50px;
-	color: #78909C;
+	color: #46C2EB;
 }
 
 #instructions{
@@ -39,4 +43,9 @@
 
 #random_number, #total_score{
 	margin-top: 30px;
+}
+
+.crystal {
+	height: 105px;
+	width: 100px;
 }

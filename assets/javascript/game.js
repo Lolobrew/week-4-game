@@ -31,6 +31,8 @@ $(document).ready(function(){
 		$("#crystal2").attr("data", Math.floor(Math.random()*12) + 1);
 		$("#crystal3").attr("data", Math.floor(Math.random()*12) + 1);
 		$("#crystal4").attr("data", Math.floor(Math.random()*12) + 1);
+
+
 	}
 
 
@@ -45,6 +47,8 @@ $(".crystal").on("click", function(){
 
 		console.log(total);
 		console.log(crystalNumber);
+
+		$(this).effect('bounce', {times: 1}, 200);
 
 
 	//update the text of the user's total score
