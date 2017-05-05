@@ -14,7 +14,7 @@ $(document).ready(function(){
 	function resetGame(){
 
 		//assign a random number between 19 and 120
-		randomNumber = Math.floor(Math.random()*120) + 19;
+		randomNumber = Math.floor(Math.random()*101) + 19;
 		console.log(randomNumber);
 
 		//establish player total = 0 on game start
